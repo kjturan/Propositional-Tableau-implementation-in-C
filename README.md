@@ -14,20 +14,21 @@ All the outputs are collected and outputted to file called output.txt.
 
 To run this program, run the following commands in the respective directory:
 
-'''
+```
 $ gcc skeleton.c
 $ ./a.out
-'''
+```
 
 To test the parser on your own examples, simply add them to input.txt with the following notation:
 
-'''
-[Original Symbol] : [Notation]
-AND : ^
-OR  : v
-NEGATION : -
-IMPLICATION : > 
-'''
+```
+                                  [Original Symbol] : [Notation]
+                                  ------------------------------
+                                  LOGICAL AND: ^
+                                  LOGICAL OR: v
+                                  NEGATION : -
+                                  IMPLICATION (RIGHT ARROW): > 
+```
 
 Note: The parser currently only works with propositional constants p, q, and r.
 Further work will allow the parser to work with an arbitrary number of constants. 
