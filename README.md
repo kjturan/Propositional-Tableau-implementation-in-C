@@ -21,12 +21,13 @@ $ ./a.out
 
 To test the parser on your own examples, simply add them to input.txt with the following notation:
 
+'''
 [Original Symbol] : [Notation]
-------------------------------
 AND : ^
 OR  : v
 NEGATION : -
 IMPLICATION : > 
+'''
 
 Note: The parser currently only works with propositional constants p, q, and r.
 Further work will allow the parser to work with an arbitrary number of constants. 
